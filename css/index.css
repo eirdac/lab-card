@@ -4,8 +4,24 @@ body {
     margin: 0em;
 } 
 
-.boldnum {
-    font-weight: 700;
+.bold-num {
+    font-weight: 700 px;
+    font-size: 1.6em;
+    margin-left: 20px;
+    margin-right: 8px;
+
+}
+
+.room-info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    line-height: 55px;
+    
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
 }
 
 .box {
@@ -39,6 +55,8 @@ body {
     border-radius: 2em;
     width: 50%;
     height: auto;
+    
+    margin-bottom: 1em;
 
     margin-left: auto;
     margin-right: auto;
@@ -48,15 +66,21 @@ body {
     text-transform: uppercase;
 }
 
+.divider {
+    border: 0;
+    height: 1px;
+    background: rgb(214, 214, 214);
+}
+
 .house {
     width: 90%;
+    flex-shrink: 0;
 
 }
 
 .icons {
-    width: 30%;
-    display: block;
-    margin-right: 1em;
+    width: 40px;
+
 }
 
 .gray-txt {
@@ -65,4 +89,6 @@ body {
 
 .line {
     display: flex;
+    align-items: center;
 }
+
